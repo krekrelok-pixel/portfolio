@@ -248,24 +248,6 @@ a:hover { color:#3a7fe0; }
     </div>
   </div>
 
-  <!-- BSOD easter egg -->
-  <sc-if value="{{ bsod }}" hint-placeholder-val="{{ false }}">
-    <div style="position:fixed; inset:0; background:#0000AA; color:#fff; font-family:'Courier New', monospace; z-index:999999; padding:64px 90px; cursor:pointer;" onClick="{{ dismissBsod }}">
-      <div style="max-width:820px; line-height:1.7; font-size:16px;">
-        <div>Windows</div>
-        <div style="margin-top:18px;">A fatal exception has occurred at ANNE_OS.SYS.</div>
-        <div style="margin-top:18px; font-size:20px; font-weight:bold;">ERROR: TOO MUCH TALENT, SYSTEM OVERWHELMED</div>
-        <div style="margin-top:24px;">If this is the first time you've seen this portfolio, restart</div>
-        <div>your search and hire the video editor. If problems continue,</div>
-        <div>contact krekrelok@gmail.com.</div>
-        <div style="margin-top:28px;">* Press any key to continue <span style="animation: blink 1s step-start infinite;">_</span></div>
-        <div>* Press CTRL+ALT+DEL to restart your career search</div>
-      </div>
-    </div>
-  </sc-if>
-
-</div>
-
 </x-dc>
 <script type="text/x-dc" data-dc-script>
 class Component extends DCLogic {
